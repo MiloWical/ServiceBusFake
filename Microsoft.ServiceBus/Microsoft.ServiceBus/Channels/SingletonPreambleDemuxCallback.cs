@@ -1,0 +1,6 @@
+using System;
+
+namespace Microsoft.ServiceBus.Channels
+{
+	internal delegate ISingletonChannelListener SingletonPreambleDemuxCallback(ServerSingletonPreambleConnectionReader serverSingletonPreambleReader);
+}

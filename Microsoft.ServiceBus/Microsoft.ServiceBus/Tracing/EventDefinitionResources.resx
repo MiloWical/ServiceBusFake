@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="event_PairedNamespaceStartSyphon" xml:space="preserve">
+    <value>Syphon ID {0}. Starting syphon for Primary: {1}, Secondary {2}, Backlog queue count {3}.</value>
+  </data>
+  <data name="keyword_Gateway" xml:space="preserve">
+    <value>Gateway component</value>
+  </data>
+  <data name="event_PairedNamespaceMessagePumpProcessQueueFailed" xml:space="preserve">
+    <value>Processing the backlog queue experienced an error. Exception: '{0}'</value>
+  </data>
+  <data name="event_PairedNamespaceCouldNotCreateMessageSender" xml:space="preserve">
+    <value>Error creating message sender. Namespace '{0}', entity '{1}', error '{2}'.</value>
+  </data>
+  <data name="event_AmqpUpgradeTransport" xml:space="preserve">
+    <value>{0}: Upgrade transport {1} to {2}.</value>
+  </data>
+  <data name="event_HybridConnectionInvalidConnectionString" xml:space="preserve">
+    <value>HybridConnection failed to parse connection string {0}.</value>
+  </data>
+  <data name="event_PairedNamespaceMessageNoPathInBacklog" xml:space="preserve">
+    <value>Paired namespace: Message received from namespace '{0}', entity '{1}' had no path set. Message ID: '{2}'.</value>
+  </data>
+  <data name="event_ChannelReceiveContextAbandon" xml:space="preserve">
+    <value>The ServiceBus Transport channel is abandoning a ReceiveContext.  LockToken: '{0}'.</value>
+  </data>
+  <data name="event_ExceptionAsInformation" xml:space="preserve">
+    <value>Exception details: '{0}'</value>
+  </data>
+  <data name="event_RelayClientGoingOnline" xml:space="preserve">
+    <value>Relay AMQP Client going online: Endpoint: {0}.</value>
+  </data>
+  <data name="event_ChannelReceivedMessage" xml:space="preserve">
+    <value>The ServiceBus Transport channel is receiving a message from address '{0}'. Action '{1}', MessageID '{2}'.</value>
+  </data>
+  <data name="event_RelayListenerClientAcceptFailed" xml:space="preserve">
+    <value>RelayedListenerClient failed to accept message. Uri: {0} Session Id: {1} Exception: {2}</value>
+  </data>
+  <data name="event_PairedNamespaceMessagePumpReceiveFailed" xml:space="preserve">
+    <value>Paired namespace: No messages received from namespace '{0}', entity '{1}'. Exception: '{2}'.</value>
+  </data>
+  <data name="event_WebStreamFramingInputPumpSlowReadWithException" xml:space="preserve">
+    <value>WebStream FramingInputPump Read Threw Exception with Slow time. Uri: {0} Elapsed: {1} Exception {2}.</value>
+  </data>
+  <data name="event_AmqpAddSession" xml:space="preserve">
+    <value>{0}: Add {1} (local-channel={2}, remote-channel={3}).</value>
+  </data>
+  <data name="event_GetRuntimeEntityDescriptionFailed" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}, Entity: {2}. GetRuntimeEntityDescription failed, but will continue retrying. Exception: {3}</value>
+  </data>
+  <data name="event_RetryPolicyStreamNotSeekable" xml:space="preserve">
+    <value>[TrackingId:{0}] {1}: Operation {2} cannot retry because stream does not support seeking.</value>
+  </data>
+  <data name="event_AmqpOpenEntityFailed" xml:space="preserve">
+    <value>{0}: Fail to open object {1} (name='{2}') for entity '{3}'. Error: {4}.</value>
+  </data>
+  <data name="event_UnexpectedExceptionTelemetry" xml:space="preserve">
+    <value>Encountered unexpected exception type {0} during BeginSend</value>
+  </data>
+  <data name="event_ThrowingExceptionWarning" xml:space="preserve">
+    <value>Throwing an exception. Details: {0}.</value>
+  </data>
+  <data name="event_PairedNamespacePingException" xml:space="preserve">
+    <value>Paired namespace ping caught an exception:'{0}'.</value>
+  </data>
+  <data name="event_RelayClientConnectivityModeDetected" xml:space="preserve">
+    <value>RelayedOnewayTcpClient detected ConnectivityMode. Uri: {0} IsListener: {1} Mode: {2}</value>
+  </data>
+  <data name="event_MessageComplete" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. The '{2}' message receiver is completing a message. LockToken: '{3}'.</value>
+  </data>
+  <data name="event_RuntimeChannelAborting" xml:space="preserve">
+    <value>ServiceBus runtime channel is aborting. Type: {0}, LocalAddress: {1}, RemoteAddress: {2}, Via: {3}, Session: {4}</value>
+  </data>
+  <data name="event_WebStreamFramingInputPumpSlowRead" xml:space="preserve">
+    <value>WebStream FramingInputPump Read Was Slow To Read Bytes. Uri: {0} Bytes Received: {1} Elapsed: {2}.</value>
+  </data>
+  <data name="event_MessageCanceling" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. The '{2}' message sender is canceling a message. SequenceNumber '{3}'.</value>
+  </data>
+  <data name="keyword_Powershell" xml:space="preserve">
+    <value>Configuration and Management Powershell cmdlets</value>
+  </data>
+  <data name="event_RuntimeChannelPingIncorrectState" xml:space="preserve">
+    <value>ServiceBus runtime channel detected incorrect state before starting ping. Type: {0}, LocalAddress: {1}, RemoteAddress: {2}, Via: {3}, Session: {4}, State: {5}</value>
+  </data>
+  <data name="event_UnhandledException" xml:space="preserve">
+    <value>Unhandled exception. Source {0}</value>
+  </data>
+  <data name="event_WebSocketTransportClosed" xml:space="preserve">
+    <value>WebSocketTransport.Close Uri: {0}.</value>
+  </data>
+  <data name="event_MessageSending" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. The '{2}' message sender is sending a message. MessageId '{3}'.</value>
+  </data>
+  <data name="event_WebStreamFramingOuputPumpPingSlow" xml:space="preserve">
+    <value>WebStream FramingOutputPump Ping Write Was Slow To Read Bytes. Uri: {0} Elapsed: {1}.</value>
+  </data>
+  <data name="event_PairedNamespaceMessagePumpProcessCloseSenderFailed" xml:space="preserve">
+    <value>Failed to close the sender to the primary. Exception: {0}</value>
+  </data>
+  <data name="event_AcceptSessionRequestBegin" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. AcceptSession request started. Entity = {2}, SessionId = {3}.</value>
+  </data>
+  <data name="event_DetectConnectivityModeSucceeded" xml:space="preserve">
+    <value>Detecting connectivity mode succeeded: EndPoint: {0}, TriedMode: {1}</value>
+  </data>
+  <data name="event_AmqpRemoveSession" xml:space="preserve">
+    <value>{0}: Remove {1} (local-channel={2}, remote-channel={3}).</value>
+  </data>
+  <data name="event_HandledExceptionWithEntityName" xml:space="preserve">
+    <value>An exception was handled. Affected entity name {0}, Exception message {1}, Stack Trace {2}</value>
+  </data>
+  <data name="event_FailedToCancelNotification" xml:space="preserve">
+    <value>Exception occurred trying to cancel notification. ScheduledNotificationId: {0}, Exception: {1}.</value>
+  </data>
+  <data name="event_WebSocketTransportShutdown" xml:space="preserve">
+    <value>WebSocketTransport.Shutdown Uri: {0}.</value>
+  </data>
+  <data name="event_BatchManagerException" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. BatchManager encountered an exception. Function: {2}, Exception: {3}.</value>
+  </data>
+  <data name="event_AmqpListenSocketAcceptError" xml:space="preserve">
+    <value>The listener encountered an error during accept (retry:{0}). Error: {1}.</value>
+  </data>
+  <data name="event_FailFastOccurred" xml:space="preserve">
+    <value>Critical error occurred and running process was terminated. Error message is {0}.</value>
+  </data>
+  <data name="event_WebStreamFramingOuputPumpPingSlowException" xml:space="preserve">
+    <value>WebStream FramingOutputPump Ping Write Threw Exception with Slow time. Uri: {0} Elapsed: {1} Exception {2}.</value>
+  </data>
+  <data name="event_AmqpInputSessionChannelMessageReceived" xml:space="preserve">
+    <value>AmqpMessage received with destination {0}.</value>
+  </data>
+  <data name="event_MessageAbandon" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. The '{2}' message receiver is abandoning a message. LockToken: '{3}' .</value>
+  </data>
+  <data name="event_AmqpRemoveLink" xml:space="preserve">
+    <value>{0}: Remove {1} (handle={2}).</value>
+  </data>
+  <data name="event_PairedNamespaceStopSyphon" xml:space="preserve">
+    <value>Syphon ID {0}. Stopping syphon for Primary: {1}, Secondary {2}.</value>
+  </data>
+  <data name="event_AmqpDeliveryNotFound" xml:space="preserve">
+    <value>{0}: The delivery tag {1} was not found in the unsettled map.</value>
+  </data>
+  <data name="event_AmqpInsecureTransport" xml:space="preserve">
+    <value>{0}: Close transport {1} (isSecure={2}, isAuthenticated={3}) because it does not meet the security requirements.</value>
+  </data>
+  <data name="event_PairedNamespaceSendingMessage" xml:space="preserve">
+    <value>About to send BrokeredMessage. Original Details: Sequence Number: {0}, Destination Path: {1}</value>
+  </data>
+  <data name="keyword_Client" xml:space="preserve">
+    <value>Client component</value>
+  </data>
+  <data name="event_RuntimeChannelCreated" xml:space="preserve">
+    <value>ServiceBus runtime channel is created. Type: {0}, LocalAddress: {1}, RemoteAddress: {2}, Via: {3}, Session: {4}</value>
+  </data>
+  <data name="event_ShipAssertExceptionMessage" xml:space="preserve">
+    <value>An unexpected failure occurred. Applications should not attempt to handle this error. For diagnostic purposes, this English message is associated with the failure: {0}.</value>
+  </data>
+  <data name="event_SetStateTransfer" xml:space="preserve">
+    <value>Transferred activity to the SetState operation.</value>
+  </data>
+  <data name="event_MessageSuspend" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. The '{2}' message receiver is suspending a message.  LockToken: '{3}'.</value>
+  </data>
+  <data name="event_BatchManagerExecutingBatchedObject" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. BatchManager is executing a batched object with a new tracking ID ({2}).</value>
+  </data>
+  <data name="event_MessageReceived" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. The '{2}' message receiver received a message. MessageId '{3}'.</value>
+  </data>
+  <data name="event_BatchManagerTransactionInDoubt" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. The result of BatchManager transaction is in-doubt. Transaction Id = {2}, Rollback called = {3}.</value>
+  </data>
+  <data name="event_RetryOperation" xml:space="preserve">
+    <value>Retrying operation '{0}'. Attempt: {1}. Reason: {2}.</value>
+  </data>
+  <data name="event_AcceptSessionRequestEnd" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. AcceptSession request ended. Entity = {2}, SessionId = {3}.</value>
+  </data>
+  <data name="event_LogAsWarning" xml:space="preserve">
+    <value>Details: {0}.</value>
+  </data>
+  <data name="event_WebStreamShutdown" xml:space="preserve">
+    <value>WebStream.Shutdown. Uri: {0}  Full Uri: {1}.</value>
+  </data>
+  <data name="event_WebStreamConnectionClose" xml:space="preserve">
+    <value>WebStreamConnection.Close. Uri: {0}  Full Uri: {1}.</value>
+  </data>
+  <data name="event_WebStreamConnectionAbort" xml:space="preserve">
+    <value>WebStreamConnection.Abort. Uri: {0}  Full Uri: {1}.</value>
+  </data>
+  <data name="event_RelayClientReconnecting" xml:space="preserve">
+    <value>Relay AMQP Client is reconnecting: Endpoint: {0}, ListenerType: {1}.</value>
+  </data>
+  <data name="event_RelayListenerRelayedConnectReceived" xml:space="preserve">
+    <value>Relay Listener Client received a connection request. Endpoint: {0}, ConnectionId: {1}.</value>
+  </data>
+  <data name="event_RelayChannelFaulting" xml:space="preserve">
+    <value>Channel inheriting from FramingDuplexSessionChannel Faulting. Uri: {0}</value>
+  </data>
+  <data name="event_PerformanceCounterCreationFailed" xml:space="preserve">
+    <value>Exception occurred while creating performance counters. Exception message '{0}'.</value>
+  </data>
+  <data name="event_HybridConnectionFailedToStart" xml:space="preserve">
+    <value>HybridConnection failed to start {0} {1} {2}.</value>
+  </data>
+  <data name="EventSource_UndefinedChannel" xml:space="preserve">
+    <value>Channel {0} used in event {1} is undefined. </value>
+  </data>
+  <data name="event_WebSocketTransportEstablished" xml:space="preserve">
+    <value>WebSocketTransport.Established Uri: {0}.</value>
+  </data>
+  <data name="event_ChannelSendingMessage" xml:space="preserve">
+    <value>The ServiceBus Transport channel is sending a message to address '{0}'. Action '{1}', MessageID '{2}'.</value>
+  </data>
+  <data name="event_PerformanceCounterInstanceCreated" xml:space="preserve">
+    <value>Performance counter {0} created.</value>
+  </data>
+  <data name="event_WebSocketConnectionClose" xml:space="preserve">
+    <value>WebSocketConnection.Close Uri: {0}.</value>
+  </data>
+  <data name="event_WebSocketConnectionAbort" xml:space="preserve">
+    <value>WebSocketConnection.Abort Uri: {0}.</value>
+  </data>
+  <data name="event_RelayListenerFailedToDispatchMessage" xml:space="preserve">
+    <value>RelayedOnewayTcpListener failed to dispatch message. Listener Uri: {0} Message Uri: {1}</value>
+  </data>
+  <data name="event_WebSocketConnectionShutdown" xml:space="preserve">
+    <value>WebSocketConnection.Shutdown Uri: {0}.</value>
+  </data>
+  <data name="event_WebSocketTransportAborted" xml:space="preserve">
+    <value>WebSocketTransport.Abort Uri: {0}.</value>
+  </data>
+  <data name="event_WebSocketConnectionEstablished" xml:space="preserve">
+    <value>WebSocketConnection.Established Uri: {0}.</value>
+  </data>
+  <data name="event_FramingOuputPumpPingException" xml:space="preserve">
+    <value>Exception during FramingOuputPump.Ping. Uri {0} Exception {1}</value>
+  </data>
+  <data name="event_WebStreamWriteStreamCompleted" xml:space="preserve">
+    <value>WebStream WriteStream OnCompleted fired. Uri: {0} Full Uri: {1}.</value>
+  </data>
+  <data name="event_RelayClientConnectRedirected" xml:space="preserve">
+    <value>RelayClientConnect Redirected from {0} to {1}.</value>
+  </data>
+  <data name="event_HandledExceptionWarning" xml:space="preserve">
+    <value>Handling an exception. Source {0}</value>
+  </data>
+  <data name="event_PairedNamespaceDeadletterException" xml:space="preserve">
+    <value>Paired namespace dead letter had an issue. Namespace '{0}', entity '{1}'. Exception: '{2}'.</value>
+  </data>
+  <data name="event_NonSerializableException" xml:space="preserve">
+    <value>Non-serializable exception was handled. Exception: '{0}'</value>
+  </data>
+  <data name="event_PairedNamespaceSendToBacklogFailed" xml:space="preserve">
+    <value>Paired namespace send to backlog queue failed. Namespace '{0}', entity '{1}'. Exception: '{2}'</value>
+  </data>
+  <data name="event_WebStreamFramingOuputPumpSlow" xml:space="preserve">
+    <value>WebStream FramingOutputPump Write Was Slow To Read Bytes. Uri: {0} Elapsed: {1}.</value>
+  </data>
+  <data name="event_TraceCodeEventLogCritical" xml:space="preserve">
+    <value>Wrote to the EventLog. Data {0}</value>
+  </data>
+  <data name="event_MessageReceiveTransfer" xml:space="preserve">
+    <value>Transferred activity to the Message receive operation.</value>
+  </data>
+  <data name="event_HybridConnectionFailedToReadResourceDescriptionMetaData" xml:space="preserve">
+    <value>HybridConnection failed to read Persistent Endpoint Resource Description MetaData {0} {1} {2}.</value>
+  </data>
+  <data name="ArgumentOutOfRange_MaxStringsExceeded" xml:space="preserve">
+    <value>Maximum number of string arguments '{0}' exceeded. </value>
+  </data>
+  <data name="ArgumentOutOfRange_MaxArgExceeded" xml:space="preserve">
+    <value>Maximum number of arguments '{0}' exceeded. </value>
+  </data>
+  <data name="event_HybridConnectionManagerConfigSettingsChanged" xml:space="preserve">
+    <value>HybridConnectionManager Service configuration settings changed.</value>
+  </data>
+  <data name="event_WebStreamReset" xml:space="preserve">
+    <value>WebStream.Reset. Uri: {0} Full Uri: {1}.</value>
+  </data>
+  <data name="event_RetryPolicyStreamNotClonable" xml:space="preserve">
+    <value>[TrackingId:{0}] {1}: Operation {2} cannot retry because brokered message's stream cannot be cloned. [{3}]:{4}</value>
+  </data>
+  <data name="event_WebStreamClose" xml:space="preserve">
+    <value>WebStream.Close. Uri: {0} Full Uri: {1}.</value>
+  </data>
+  <data name="event_AmqpLogOperation" xml:space="preserve">
+    <value>{0}: {1} {2}.</value>
+  </data>
+  <data name="event_PairedNamespaceSendMessageSuccess" xml:space="preserve">
+    <value>Success. Sent BrokeredMessage. Original Details: Sequence Number: {0}, Destination Path: {1}</value>
+  </data>
+  <data name="event_WebStreamAbort" xml:space="preserve">
+    <value>WebStream.Abort. Uri: {0} Full Uri: {1}.</value>
+  </data>
+  <data name="event_RuntimeChannelFaulting" xml:space="preserve">
+    <value>ServiceBus runtime channel is faulting. Type: {0}, LocalAddress: {1}, RemoteAddress: {2}, Via: {3}, Session: {4}, Reason: {5}</value>
+  </data>
+  <data name="event_MessageReceivePumpUnexpectedException" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. MessageReceivePump unexpected exception: {2}.</value>
+  </data>
+  <data name="event_TraceCodeEventLogInformational" xml:space="preserve">
+    <value>Wrote to the EventLog. Data {0}</value>
+  </data>
+  <data name="event_PerformanceCounterInstanceRemoved" xml:space="preserve">
+    <value>Performance counter {0} removed.</value>
+  </data>
+  <data name="event_MessageSendingTransfer" xml:space="preserve">
+    <value>Tranferred activity to the outbound message.</value>
+  </data>
+  <data name="event_MessageReceivePumpFailedToAbandon" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. MessageReceivePump failed to Abandon: {2}.</value>
+  </data>
+  <data name="event_WebStreamFramingOuputPumpSlowException" xml:space="preserve">
+    <value>WebStream FramingOutputPump WriteThrew Exception with Slow time. Uri: {0} Elapsed: {1} Exception {2}.</value>
+  </data>
+  <data name="keyword_Host" xml:space="preserve">
+    <value>Host component</value>
+  </data>
+  <data name="event_DetectConnectivityModeFailed" xml:space="preserve">
+    <value>Detecting connectivity mode failed: EndPoint: {0}, TriedMode:{1}</value>
+  </data>
+  <data name="event_WebStreamReturningZero" xml:space="preserve">
+    <value>WebStream.Read returning 0. Uri: {0} Full Uri: {1}.</value>
+  </data>
+  <data name="event_TraceCodeEventLogWarning" xml:space="preserve">
+    <value>Wrote to the EventLog. Data {0}</value>
+  </data>
+  <data name="event_MessagePeekTransfer" xml:space="preserve">
+    <value>Transferred activity to the Message peek operation.</value>
+  </data>
+  <data name="event_AmqpDynamicReadBufferSizeChange" xml:space="preserve">
+    <value>{0}: The {1} buffer size is dynamically changed from {2} to {3}.</value>
+  </data>
+  <data name="event_GetRuntimeEntityDescriptionStarted" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}, Entity: {2}. GetRuntimeEntityDescription started.</value>
+  </data>
+  <data name="event_HybridConnectionSecurityException" xml:space="preserve">
+    <value>HybridConnection not allowed to serve {0} {1}.</value>
+  </data>
+  <data name="event_MessageRenew" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. The '{2}' message receiver is renewing a message.  LockToken: '{3}'.</value>
+  </data>
+  <data name="event_PairedNamespaceTransferQueueCreateFailure" xml:space="preserve">
+    <value>Failed to create transfer queue '{0}' in namespace '{1}'. Will not retry. Exception: {2}</value>
+  </data>
+  <data name="event_MessageDefer" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. The '{2}' message receiver is deferring a message.  LockToken: '{3}'.</value>
+  </data>
+  <data name="event_MessageReceivePumpUserCallbackException" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. Exception during MessageReceivePump from User Callback: {2}.</value>
+  </data>
+  <data name="event_RelayClientConnected" xml:space="preserve">
+    <value>Relay Client has connected: Endpoint: {0}, IsListener: {1}.</value>
+  </data>
+  <data name="event_ChannelFaulted" xml:space="preserve">
+    <value>A ServiceBus Transport channel has faulted. Type: {0}.</value>
+  </data>
+  <data name="event_MessageReceivePumpStopped" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. MessageReceivePump stopped.</value>
+  </data>
+  <data name="event_HybridConnectionManagerConfigurationFileError" xml:space="preserve">
+    <value>HybridConnectionManager Service encountered configuration file error: {0}.</value>
+  </data>
+  <data name="event_RelayLogVerbose" xml:space="preserve">
+    <value>{0}: {1}.</value>
+  </data>
+  <data name="event_RelayClientPingFailed" xml:space="preserve">
+    <value>RelayedOnewayTcpClient failed to ping. Uri: {0} IsListener: {1} Exception: {2}</value>
+  </data>
+  <data name="event_HybridConnectionManagerManagementServiceStarting" xml:space="preserve">
+    <value>HybridConnectionManager Management Server is starting on port {0}.</value>
+  </data>
+  <data name="event_RenewSessionLockTransfer" xml:space="preserve">
+    <value>Transferred activity to the RenewLock operation.</value>
+  </data>
+  <data name="event_AppDomainUnload" xml:space="preserve">
+    <value>AppDomain unloading. AppDomain.FriendlyName {0}, ProcessName {1}, ProcessId {2}.</value>
+  </data>
+  <data name="event_ChannelReceiveContextComplete" xml:space="preserve">
+    <value>The ServiceBus Transport channel is completing a ReceiveContext.  LockToken: '{0}'.</value>
+  </data>
+  <data name="event_ThrowingExceptionWithEntityName" xml:space="preserve">
+    <value>Affected entity name = {0}. Throwing an exception {1}. </value>
+  </data>
+  <data name="event_RelayChannelConnectionTransfer" xml:space="preserve">
+    <value>Attaching activity Id to Connection Activity Id.</value>
+  </data>
+  <data name="event_HybridConnectionManagerManagementServiceStopping" xml:space="preserve">
+    <value>HybridConnectionManager Management Server is stopping on port {0}.</value>
+  </data>
+  <data name="event_RelayClientConnecting" xml:space="preserve">
+    <value>Relay Client is connecting: Endpoint: {0}, IsListener: {1}.</value>
+  </data>
+  <data name="event_ExceptionAsWarning" xml:space="preserve">
+    <value>Exception details: '{0}'</value>
+  </data>
+  <data name="event_RelayListenerClientAccepted" xml:space="preserve">
+    <value>Relay Listener Client accepted a connection. Endpoint: {0}, ConnectionId: {1}.</value>
+  </data>
+  <data name="event_UnexpectedScheduledNotificationIdFormat" xml:space="preserve">
+    <value>Unexpected scheduledNotificationId format {0}.</value>
+  </data>
+  <data name="event_PairedNamespaceSendMessageFailure" xml:space="preserve">
+    <value>Failed to send BrokeredMessage. Original Details: Sequence Number: {0}, Destination Path: {1}. Exception: {2}</value>
+  </data>
+  <data name="event_MessageReceivePumpReceiveException" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. MessageReceivePump Receive exception: {2}.</value>
+  </data>
+  <data name="event_NullReferenceErrorOccurred" xml:space="preserve">
+    <value>Null reference exception occurred. Error = {0}.</value>
+  </data>
+  <data name="event_AmqpLogError" xml:space="preserve">
+    <value>{0}: Operation {1} failed with error {2}.</value>
+  </data>
+  <data name="event_AmqpOpenEntitySucceeded" xml:space="preserve">
+    <value>{0}: Open {1} (name='{2}') for entity '{3}' succeeded.</value>
+  </data>
+  <data name="event_AmqpStateTransition" xml:space="preserve">
+    <value>{0}: Action {1} changed the state from {2} to {3}.</value>
+  </data>
+  <data name="event_PairedNamespaceTransferQueueCreateError" xml:space="preserve">
+    <value>Failed to create transfer queue '{0}' in namespace '{1}'. Will retry. Exception: {2}</value>
+  </data>
+  <data name="event_RuntimeChannelStopPingWithIncorrectState" xml:space="preserve">
+    <value>ServiceBus runtime channel stopping ping because of non-opened state. Type: {0}, LocalAddress: {1}, RemoteAddress: {2}, Via: {3}, Session: {4}, State: {5}, PendingRequestCount: {6}</value>
+  </data>
+  <data name="event_HybridConnectionManagerManagementServerError" xml:space="preserve">
+    <value>HybridConnectionManager Management Server error: {0}.</value>
+  </data>
+  <data name="event_PairedNamespaceReceiveMessageFromSecondary" xml:space="preserve">
+    <value>Received BrokeredMessage from secondary. Sequence Number: {0}. Secondary queue: {1}. </value>
+  </data>
+  <data name="event_AmqpDispose" xml:space="preserve">
+    <value>{0}: Dispose delivery (id={1}, settled={2}, state={3}).</value>
+  </data>
+  <data name="event_AmqpAttachLink" xml:space="preserve">
+    <value>{0}: Attach {1} (name={2}, role={3}).</value>
+  </data>
+  <data name="event_LogOperation" xml:space="preserve">
+    <value>Log: Operation: '{0}'. Details: {1}.</value>
+  </data>
+  <data name="event_RelayChannelAborting" xml:space="preserve">
+    <value>Channel inheriting from FramingDuplexSessionChannel Aborting. Uri: {0}</value>
+  </data>
+  <data name="event_WebStreamReadStreamCompleted" xml:space="preserve">
+    <value>WebStream ReadStream OnCompleted fired. Uri: {0} Full Uri: {1}.</value>
+  </data>
+  <data name="event_HybridConnectionManagerStarting" xml:space="preserve">
+    <value>HybridConnectionManager Service is starting.</value>
+  </data>
+  <data name="event_ThrowingExceptionError" xml:space="preserve">
+    <value>Throwing an exception. Details: {0}.</value>
+  </data>
+  <data name="event_MessageReceivePumpFailedToComplete" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. MessageReceivePump failed to Complete: {2}.</value>
+  </data>
+  <data name="event_AmqpReceiveMessage" xml:space="preserve">
+    <value>{0}: Receive {1} (transfer count={2}).</value>
+  </data>
+  <data name="event_HybridConnectionManagerStopping" xml:space="preserve">
+    <value>HybridConnectionManager Service is stopping.</value>
+  </data>
+  <data name="event_AmqpLogOperationVerbose" xml:space="preserve">
+    <value>{0}: {1} {2}.</value>
+  </data>
+  <data name="event_RelayChannelClosing" xml:space="preserve">
+    <value>Channel inheriting from FramingDuplexSessionChannel Closing. Uri: {0}</value>
+  </data>
+  <data name="event_TraceCodeEventLogVerbose" xml:space="preserve">
+    <value>Wrote to the EventLog. Data {0}</value>
+  </data>
+  <data name="event_RelayClientConnectFailed" xml:space="preserve">
+    <value>Client failed to establish connection. Uri: {0}, Reason: {1}.</value>
+  </data>
+  <data name="event_GetRuntimeEntityDescriptionCompleted" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}, Entity: {2}. GetRuntimeEntityDescription completed. Result: {3}</value>
+  </data>
+  <data name="event_RelayClientDisconnected" xml:space="preserve">
+    <value>Relay Client has been disconnected: Endpoint: {0}, IsListener: {1}, Error: {2}.</value>
+  </data>
+  <data name="event_WebStreamConnectionShutdown" xml:space="preserve">
+    <value>WebStreamConnection.Shutdown. Uri: {0}  Full Uri: {1}.</value>
+  </data>
+  <data name="event_RetryPolicyIteration" xml:space="preserve">
+    <value>[TrackingId:{0}] {1}: Operation {2} at iteration {3} is retrying after {4} sleep because of {5}:{6}.</value>
+  </data>
+  <data name="event_RelayChannelOpening" xml:space="preserve">
+    <value>Relay Channel Opening. Type: {0}, Endpoint: {1}.</value>
+  </data>
+  <data name="event_WebStreamConnectFailed" xml:space="preserve">
+    <value>WebStream Connect Failed. Uri: {0} Full Uri: {1} Retries remaining: {2} Exception {3}.</value>
+  </data>
+  <data name="event_WebStreamConnectCompleted" xml:space="preserve">
+    <value>WebStream Connected. Uri: {0} Full Uri: {1} Retries remaining: {2}.</value>
+  </data>
+  <data name="event_WebStreamConnecting" xml:space="preserve">
+    <value>WebStream Connecting. Uri: {0} Full Uri: {1} Retries remaining: {2}.</value>
+  </data>
+  <data name="event_GetStateTransfer" xml:space="preserve">
+    <value>Transferred activity to the GetState operation.</value>
+  </data>
+  <data name="event_RelayClientStopConnecting" xml:space="preserve">
+    <value>Relay AMQP Client stop connecting: Endpoint: {0}, ListenerType: {1}.</value>
+  </data>
+  <data name="event_LogOperationWarning" xml:space="preserve">
+    <value>Log: Operation: '{0}'. Details: {1}.</value>
+  </data>
+  <data name="event_AcceptSessionRequestFailed" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}. AcceptSession request failed. Entity = {2}, SessionId = {3}, Error = {4}.</value>
+  </data>
+  <data name="event_FramingOuputPumpRunException" xml:space="preserve">
+    <value>Exception during FramingOuputPump.Run. Uri {0} Exception {1}</value>
+  </data>
+  <data name="event_ThreadNeutralSemaphoreEnterFailed" xml:space="preserve">
+    <value>ThreadNeutralSemaphore for '{0}' failed to be obtained {1} times within {2} ms.</value>
+  </data>
+  <data name="event_AmqpSettle" xml:space="preserve">
+    <value>{0}: Settle {1} deliveries (lwm={2}, next-id={3}).</value>
+  </data>
+  <data name="event_AmqpManageLink" xml:space="preserve">
+    <value>Link manager is performing '{0}' on link '{1}' (info: {2}).</value>
+  </data>
+  <data name="event_WebStreamDispose" xml:space="preserve">
+    <value>WebStream.Dispose. Uri: {0} Full Uri: {1}.</value>
+  </data>
+  <data name="event_PairedNamespaceDestinationSendException" xml:space="preserve">
+    <value>Paired namespace send failed getting messages to the destination. Namespace '{0}', entity '{1}'. Exception: '{2}'.</value>
+  </data>
+  <data name="event_MessageReceivePumpBackoff" xml:space="preserve">
+    <value>TrackingId: {0}, SubsystemId: {1}, Backoff: {2} ms, Exception: {3}.</value>
+  </data>
+  <data name="event_SingletonManagerLoadSucceeded" xml:space="preserve">
+    <value>Singleton Manager instance was loaded. Name = {0}.</value>
+  </data>
+  <data name="event_ThrowingExceptionVerbose" xml:space="preserve">
+    <value>Throwing an exception. Details: {0}.</value>
+  </data>
+  <data name="event_RuntimeChannelPingFailed" xml:space="preserve">
+    <value>ServiceBus runtime channel failed to ping. Type: {0}, LocalAddress: {1}, RemoteAddress: {2}, Via: {3}, Session: {4}, Reason: {5}</value>
+  </data>
+  <data name="event_HybridConnectionFailedToStop" xml:space="preserve">
+    <value>HybridConnection failed to stop {0} {1} {2}.</value>
+  </data>
+  <data name="event_TraceCodeEventLogError" xml:space="preserve">
+    <value>Wrote to the EventLog. Data {0}</value>
+  </data>
+  <data name="event_RelayClientFailedToAcquireToken" xml:space="preserve">
+    <value>Relay Client failed to acquire token. Endpoint {0} IsListener {1} Action {2} Exception {3}.</value>
+  </data>
+  <data name="event_HybridConnectionStopped" xml:space="preserve">
+    <value>HybridConnection running at Endpoint {0} stopped.</value>
+  </data>
+  <data name="event_HybridConnectionStarted" xml:space="preserve">
+    <value>HybridConnection running at Endpoint {0}.</value>
+  </data>
+  <data name="event_HandledExceptionWithFunctionName" xml:space="preserve">
+    <value>An exception was handled at {0}. Exception: {1}. {2}</value>
+  </data>
+  <data name="event_ThrowingExceptionInformational" xml:space="preserve">
+    <value>Throwing an exception. Details: {0}.</value>
+  </data>
+</root>
